@@ -1,0 +1,38 @@
+.main-card{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 8px;
+    flex-basis: content;
+    flex-shrink: 0;
+    flex-flow: column wrap;
+    border: 2px solid;
+    flex-wrap: wrap;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 8px 0;
+    box-shadow: 8px 0 16px 0px gray;
+    z-index: 2;
+}
+
+
+.main-card--name {
+    font-size: 18px;
+    font-weight: bold;
+    max-height: inherit;
+    max-width: inherit;
+}
+.main-card--class {
+    max-height: inherit;
+    max-width: inherit;
+}
+.main-card--student {
+    font-size: 18px;
+    font-weight: bold;
+    max-height: inherit;
+    max-width: inherit;
+}
+.main-card--student-name {
+    max-height: inherit;
+    max-width: inherit;
+}

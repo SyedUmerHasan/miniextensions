@@ -1,0 +1,61 @@
+#main-app{
+  display: flex;
+  padding: 10% 0;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  flex-grow: 1;
+}
+#login{
+  background-color: #333;
+  border-radius: 10px;
+  color: aliceblue;
+  padding: 12px;
+  border: 0;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 32px;
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+
+#logout{
+  background-color: #333;
+  border-radius: 10px;
+  color: aliceblue;
+  padding: 12px;
+  border: 0;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 32px;
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+
+#login:hover{
+  background-color: #00d1d8;
+}
+
+#student-name{
+  margin: 12px 0px;
+  line-height: 32px;
+  padding: 8px;
+  font-size: 24px;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+
+button:focus{
+  outline: none;
+  border: 2px pink solid;
+}
+
+#student-name:focus {
+  margin: 12px 0px;
+  line-height: 32px;
+  border: 2px solid #00d1d8;
+  border-radius: 10px;
+}
+textarea:focus, input:focus{
+  outline: none;
+}
