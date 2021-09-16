@@ -1,6 +1,6 @@
 
 export interface Classes {
-    id: number;
+    id: number|string;
     fields: any;
 }
 

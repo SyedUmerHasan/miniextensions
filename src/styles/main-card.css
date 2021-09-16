@@ -33,6 +33,8 @@
     max-width: inherit;
 }
 .main-card--student-name {
+    display: inline-block;
     max-height: inherit;
     max-width: inherit;
+    padding-right:4px;
 }
