@@ -1,4 +1,4 @@
-import { getClassesAction, getPostsAction, getStudentAction } from '../actions';
+import { getClassesAction, getStudentAction } from '../actions';
 import { Dispatch } from 'redux';
 import { ClassesActionTypes } from '../interfaces/Classes';
 import { getRecordById, listRecord, TablesAvailable } from '../../air-table/classes';

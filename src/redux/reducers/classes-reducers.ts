@@ -1,11 +1,11 @@
 import { ClassesActionTypes, GetClassStateType } from '../interfaces/Classes';
 
-export const initialStateGetPosts: GetClassStateType = {
+export const initialStateGetClasses: GetClassStateType = {
     classes: []
 };
 
 export const getClassesReducer = (
-    state = initialStateGetPosts,
+    state = initialStateGetClasses,
     action: ClassesActionTypes
 ): GetClassStateType => {
     switch (action.type) {

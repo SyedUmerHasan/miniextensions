@@ -1,11 +1,11 @@
 import { StudentActionTypes, GetStudentsStateType } from '../interfaces/Students';
 
-export const initialStateGetPosts: GetStudentsStateType = {
+export const initialStateGetStudents: GetStudentsStateType = {
     students: []
 };
 
 export const getStudentsReducer = (
-    state = initialStateGetPosts,
+    state = initialStateGetStudents,
     action: StudentActionTypes
 ): GetStudentsStateType => {
     switch (action.type) {
